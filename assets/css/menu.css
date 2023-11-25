@@ -1,0 +1,198 @@
+.btn-menu img {
+    max-height: 36px;
+    position: relative;
+    top: 4px;
+}
+
+
+@media (max-width:768px) {
+    
+
+.menu nav {
+    width: 100%;
+    overflow: auto;
+    z-index: 99999999;
+}
+}
+@media (min-width:768px) {
+       header nav{
+        width: 95% !important;
+       }
+
+}
+.menu nav ul { 
+    justify-content: space-between;
+    align-items: center;
+}
+.menu nav ul li {
+   list-style: none;
+}
+.menu nav ul li a {
+    text-decoration: none;
+    border-bottom: 2px solid white;
+ 
+ }
+ .menu nav ul li a:hover{
+    color: #0262f1 ;
+    transition: .3s;
+
+    border-bottom: 2px solid #0262f1;
+ }
+ .menu a.btn.primary.convert-btn {
+    max-width: 150px;
+    max-height: 38px;
+    background-color: #ffd600;
+}
+nav .controls {
+    margin: 0 auto;
+}
+li.iten-dropdown .dropdown {
+    display: none;
+    position: relative;
+    background-color: white;
+}
+li.iten-dropdown:hover .dropdown{
+    display: block;
+    
+}
+
+.dropdown ul {
+    background: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.dropdown ul li {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropdown ul li a{
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;  
+    width: 100%;
+    opacity: .8;
+    font-size: 15px !important;
+    padding: 10px;
+
+}
+.dropdown ul li a svg{
+    font-size: 13px;
+    margin-right: 10px;
+}
+@media (max-width:1024px){
+    .dropdown, .dropdown ul{
+        margin: 10px  !important;
+        background-color: transparent !important;
+    } 
+    .menu nav ul {
+        justify-content: space-between;
+        align-items: center;
+        margin: 60px 30px;
+    }
+    .dropdown ul {
+        padding: 0;
+        margin: 0;
+    }
+    .menu nav ul li {
+        list-style: none;
+        margin: 0px auto;
+        border-bottom: 1px solid #d6cfff;
+        padding: 30px 0;
+    }
+    .dropdown li {
+        margin: 15px 0 !important;
+    }
+    
+    .menu nav ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #2d5d7b;
+    
+    }  
+ nav  {
+    display: none ;
+ }
+ nav {
+    width: 100%;
+}
+    button.btn-menu {
+        background: transparent;
+        border: 0;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    nav {
+        background:#efefef;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+}
+@media(min-width:1025px){
+        nav .controls {
+            display: none;
+        }
+        .menu button{
+            display: none;
+        }
+        .menu nav ul{
+            display: flex;
+        }
+        .menu nav ul li a {
+            text-transform: uppercase;
+            font-weight: 600;
+            opacity: .9; 
+            color: #062F6D;
+        }
+        .dropdown ul li a {
+            
+            font-size: 14px !important;
+            padding: 10px 5px;
+            border-bottom: 1px solid #eee;
+        }
+        li.iten-dropdown .dropdown {
+           
+            position: absolute;
+            margin: 25px 0;
+            width: 300px;   
+        }
+}
+
+    @media(min-width:1400px){
+    header div {
+        margin: 0 3%;
+    }
+    .display span {
+        font-size: 6.0rem !important;
+    }
+    .display h1 {
+        font-size: 3.0rem;
+        letter-spacing: 22px;
+    }
+    .display span {
+        font-size: 6.0rem !important;
+        letter-spacing: 25px;
+    }
+    footer .display a span {
+        font-size: 15px !important;
+        letter-spacing: 0px !important;
+    }
+ }
+ @media(min-width:1400px){
+    nav {
+        max-width: 800px;
+        float: right;
+        width: 618px;
+    }
+
+ }

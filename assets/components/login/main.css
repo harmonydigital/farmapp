@@ -1,0 +1,71 @@
+.login {
+    position: fixed;
+    height: 100vh;
+    z-index: 99999999999;
+    top: 0px;
+    background: #F1F1F1;
+    width: 100%;
+    display:none;
+}
+
+.login .title-login {
+    text-align: center;
+    margin-top: 40%;
+}
+.login button img {
+    margin-right: 5px;
+}
+.login button {
+    font-weight: 600;
+}
+
+.login button.btn-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 55px;
+    border-radius: 100px;
+    box-shadow: 6px 5px 9px #e5e4e4;
+    border: 0px;
+    background-color: white;
+    color:#686868;
+    /* margin: 20px ; */
+}
+.login button.btn-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 55px;
+
+    border-radius: 100px;
+    box-shadow: 6px 5px 9px #e5e4e4;
+    border: 0px;
+    background-color: #5960FF;
+    color: white;
+    margin: 20px ;
+}
+
+.login form.formMsg .title-login > img {
+    width: 180px;
+}
+.login .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+@media(min-width:768px){
+    .login .title-login {
+        
+        margin-top: 10%;
+    }
+    .login form.formMsg {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}

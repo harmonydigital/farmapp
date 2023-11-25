@@ -1,0 +1,130 @@
+
+
+div#modal {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    height: 60%;
+    margin: 0;
+border-radius: 10px;
+display: none;
+left: 0;
+z-index: 999;
+}
+::-ms-input-placeholder { /* Edge 12-18 */
+    color: #8886b7;
+    text-transform: capitalize;
+  }
+  
+  ::placeholder {
+    color: #8886b7;
+    text-transform:none;
+
+  }
+header .activeModalPage {
+    width: 25px;
+    background: transparent;
+    height: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    border: 2px solid;
+    border-radius: 50px;
+    opacity: .7;
+}
+div#modalpagcontain,#modalLogin {
+    position: fixed;
+    z-index: 99999;
+}
+
+.modal-body{
+    box-shadow: 0px 1px 0px #8886b7cf;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    width: 95%;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 5%;
+    left: 10px;
+    
+
+}
+
+.cover h2 {
+    margin: 5px auto;
+    color: #0054D2;
+    font-size: 1.5rem;
+}
+div#modalform {
+    position: fixed;
+    z-index: 999;
+}
+button.btn-send {
+    background: #ffd707;
+    border: 0;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 10px;
+    font-weight: 900;
+    margin: 20px auto 35px;
+    max-width: 200px;
+}
+.form-group {
+    width: 100%;
+    margin: 10px;
+  
+}
+.cover img {
+    width: 90px;
+    margin: 10px auto;
+}
+.modal-body h2 {
+    color: #0054D2;
+    text-align: center;
+}
+.modal p {
+    padding: 0 30px;
+    text-align: left;
+    opacity: .8;
+}
+.modal-body h3 {
+    font-size: 1rem;
+    line-height: 1.2 !important;
+    letter-spacing: 0;
+    padding: 0;
+}
+.overlay {
+    background: #0000008c;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+@media(min-width:768px){
+    .modal-body {
+          
+        width: 43%;
+        left: 30%;
+    }
+}
+@media(min-width:1024px){
+    .modal-body {
+          
+        width: 35%;
+         
+        left: 35%;
+    }
+}

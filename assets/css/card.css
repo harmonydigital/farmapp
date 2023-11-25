@@ -1,0 +1,159 @@
+.content-text h2 {
+    color: #0054D2;
+    font-weight: 600;
+    text-align: start;
+    width: 90%;
+}
+.content-text h2 strong {
+    color: #FFD707;
+}
+
+.content-text {
+    padding: 50px 5px 0;
+    max-width: 90%;
+    margin: 0 auto;
+    margin: 10px auto 20px;
+}
+
+.card-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.card {
+    background-color: #ffff;
+    border-radius: 30px;
+    padding: 15px;
+    max-width:37%;
+    margin: 10px 0px;
+
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .2s;
+    box-shadow: 7px 3px 11px 0px #00000012;
+
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: .3s;
+   
+}
+.card.active {
+    background-color: #0054D2;
+    cursor: pointer;
+}
+.card.card.active h5 {
+    color: #FFD707;
+}
+
+.card .card-header img{
+    width: 30px;
+}
+.card h5 {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #0054D2;
+}
+.card.card.active p {
+    color: white !important;
+}
+.card p {
+    margin: 15px auto 0px;
+    font-size: 14px;
+    color: #8599AB;
+    font-weight: 500;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: right;
+}
+.card button {
+    border: 2px solid #0054D2;
+    border-radius: 100px;
+    display: flex;
+    background: transparent;
+    color: #0054D2;
+    padding: 5px;
+}
+.card.card.active button {
+    border: 2px solid #ffff;
+    border-radius: 100px;
+    display: flex;
+    background: transparent;
+    color: white;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+.bread .card-container {
+    flex-flow: column;
+    position: relative;
+    margin-left: 70px;
+}
+
+.bread .card-container .card {
+    min-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.bread .card-container .card button{
+   
+    background-color: #0054D2;
+}
+.bread .card-container .card button svg{
+    color: white;
+}
+
+
+
+.portfolio .card {
+    
+    max-width: 100%;
+}
+
+.portfolio .card-footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.portfolio .card p {
+    margin: 0 auto 15px;
+    text-align: start;
+}
+.portfolio .card img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+.portfolio .slide {
+    height: 200px;
+    margin: 0;
+    padding: 37px 0px;
+}
+
+
+
+
+@media (min-width:768px) {
+    .card-container {
+        margin-left: 65px;
+        max-width: 370px;
+    }
+}
+
+
+
