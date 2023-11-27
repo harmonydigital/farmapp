@@ -13,7 +13,7 @@ msgDev.innerHTML=`
     padding: 40px 0;
     color:white;
     font-size: 13px;
-    background: rgb(0, 0, 143);
+    background:#A80002;
     position: fixed;
     z-index: 9999;
     width: 100%;
